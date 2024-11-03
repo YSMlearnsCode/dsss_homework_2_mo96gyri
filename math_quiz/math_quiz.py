@@ -8,7 +8,6 @@ def GenerateRandomInteger(min, max):
     Parameters:
     min_value (int): Minimum possible integer value.
     max_value (int): Maximum possible integer value.
-
     Returns:
     int: A random integer within the specified range.
     """

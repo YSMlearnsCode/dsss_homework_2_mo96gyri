@@ -1,6 +1,5 @@
 import random
 
-
 def GenerateRandomInteger(min, max):
     """
     Generate a random integer between min_value and max_value (inclusive).
@@ -13,7 +12,6 @@ def GenerateRandomInteger(min, max):
     """
     return random.randint(min, max)
 
-
 def ChooseOperator():
     """
     Randomly select a mathematical operator: +, -, or *.
@@ -22,7 +20,6 @@ def ChooseOperator():
     str: A random operator.
     """
     return random.choice(['+', '-', '*'])
-
 
 def ProblemAndSolution(num1, num2, operator):
     """
